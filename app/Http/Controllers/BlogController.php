@@ -12,6 +12,7 @@ class BlogController extends Controller
     public function index()
     {
         //
+        return view('blogs.index');
     }
 
     /**
@@ -20,6 +21,7 @@ class BlogController extends Controller
     public function create()
     {
         //
+        
     }
 
     /**
